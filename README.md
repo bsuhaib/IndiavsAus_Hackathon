@@ -1,14 +1,14 @@
 # IndiavsAus_Hackathon
-The Sledge Hack: Ind vs Aus Cricket Hackathon
+The Sledge Hack: Ind vs Aus Cricket Hackathon\
 
-**Approach:**
-For whole dataframe
-•	Drop match_id, stumpings, catches, match_date columns
-•	Parse opposition column into opposition team and venue
-•	Insert column Indian_pitch by noting down all the Indian pitches from internet.
-•	Delete those entries for which specific opposition sample size is < 10.
-Create two copies if this dataframe for bowler and batsman.
-**For batsman dataframe:**
+**Approach:**\
+For whole dataframe\
+•	Drop match_id, stumpings, catches, match_date columns\
+•	Parse opposition column into opposition team and venue\
+•	Insert column Indian_pitch by noting down all the Indian pitches from internet.\
+•	Delete those entries for which specific opposition sample size is < 10.\
+Create two copies if this dataframe for bowler and batsman.\
+**For batsman dataframe:**\
 •	Drop wickets column, venue, Indian_pitch ,runs_conceded column.
 •	Ignore runs_scored rows where it was ‘DNB’ and “TDNB”
 •	And for * in runs_scored, replace with “”.
